@@ -30,7 +30,6 @@ int GetNumberFromUser(string message, string errorMessage)
 double GetXCoord(int b1, int k1, int b2, int k2)
 {;
     x = (double)(b2 - b1) / (k1 - k2);
-   
     return x;
 }
 
@@ -40,4 +39,3 @@ double GetYCoord(int k1, double x, int b1)
     y = (double) k1 * x + b1;
     return y;
 }
- 
